@@ -4,14 +4,6 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center">
-      <Card className="w-[850px] h-[350px]">
-        <CardHeader>
-          <CardTitle className="text-center"></CardTitle>
-          <CardDescription className="text-center">
-            
-          </CardDescription>
-        </CardHeader>
-        <CardContent >
           <main className="flex min-h-240 flex-col items-center justify-between p-6 md:p-24">
             <div className=" max-w-3xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
               <div className="p-6">
@@ -23,9 +15,6 @@ export default function Home() {
               </div>
             </div>
           </main>
-
-        </CardContent>
-      </Card>
     </div>
   )
 }
